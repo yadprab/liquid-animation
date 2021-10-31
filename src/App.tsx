@@ -1,25 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { motion, useSpring } from "framer-motion";
+import { Fluid } from "./Components/Fluid";
+import "./Styles/Styles.css";
 function App() {
+  const x = useSpring(0, { stiffness: 300 });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <motion.div className="wrapper">
+      <Fluid x={x} />
+    </motion.div>
   );
 }
 
