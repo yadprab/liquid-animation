@@ -1,0 +1,49 @@
+.outer--wrapper {
+    padding: 3em 1em;
+    height: 100%;
+}
+
+.balance--wrapper,
+.fitness--wrapper {
+    .image--wrapper {
+        margin: 0 0 3em 0;
+    }
+
+    .bottom--wrapper {
+        h1 {
+            color: var(--text);
+
+            span {
+                font-weight: 400;
+                font-size: 1.5rem;
+                display: block;
+            }
+
+            font-size: 2.25rem;
+            font-weight: 700;
+            max-width: 175px;
+            margin: 0 0 24px 0;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 400;
+            color: var(--body);
+            max-width: 262px;
+        }
+    }
+}
+
+.mater--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 0 3em 0;
+
+    #master {
+        font-weight: 500;
+    }
+
+
+}

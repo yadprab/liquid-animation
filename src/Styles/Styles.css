@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+:root {
+  --bg: hsla(280, 82%, 98%, 1);
+  --text: hsla(278, 88%, 20%, 1);
+  --body: hsla(278, 68%, 56%, 1);
+}
+
 html {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
@@ -46,8 +53,65 @@ body {
 
 #fluid {
   position: absolute;
-  right: 0;
-  mix-blend-mode: overlay;
+  right: -10px;
+  top: 0;
+  bottom: 0;
   cursor: move;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.outer--wrapper {
+  padding: 3em 1em;
+  height: 100%;
+}
+
+.balance--wrapper .image--wrapper,
+.fitness--wrapper .image--wrapper {
+  margin: 0 0 3em 0;
+}
+
+.balance--wrapper .bottom--wrapper h1,
+.fitness--wrapper .bottom--wrapper h1 {
+  color: var(--text);
+  font-size: 2.25rem;
+  font-weight: 700;
+  max-width: 175px;
+  margin: 0 0 24px 0;
+}
+
+.balance--wrapper .bottom--wrapper h1 span,
+.fitness--wrapper .bottom--wrapper h1 span {
+  font-weight: 400;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.balance--wrapper .bottom--wrapper p,
+.fitness--wrapper .bottom--wrapper p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--body);
+  max-width: 262px;
+}
+
+.mater--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 3em 0;
+}
+
+.mater--wrapper #master {
+  font-weight: 500;
 }
 /*# sourceMappingURL=Styles.css.map */
