@@ -1,6 +1,7 @@
 html {
 
-    scroll-behavior: smooth;
+    scroll-behavior: none;
+    touch-action: none;
     text-rendering: optimizeSpeed;
     min-width: 100%;
     overflow-x: hidden;
