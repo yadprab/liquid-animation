@@ -4,25 +4,29 @@
 }
 
 .balance--wrapper,
-.fitness--wrapper {
+.Fitness--wrapper,
+.social--wrapper {
     .image--wrapper {
         margin: 0 0 3em 0;
     }
 
     .bottom--wrapper {
         h1 {
-            color: var(--text);
+
 
             span {
                 font-weight: 400;
                 font-size: 1.5rem;
                 display: block;
+                color: var(--text);
             }
 
             font-size: 2.25rem;
             font-weight: 700;
             max-width: 175px;
+            text-transform: uppercase;
             margin: 0 0 24px 0;
+            color: var(--texthigh);
         }
 
         p {
@@ -45,5 +49,13 @@
         font-weight: 500;
     }
 
+    p {
+        color: var(--master);
+    }
 
+
+}
+
+#Vector {
+    stroke: var(--Icon);
 }

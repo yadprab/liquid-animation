@@ -1,4 +1,4 @@
-import IMG from "../Images/Customer.png";
+import IMG from "../Images/Hiring.png";
 const Social = () => {
   return (
     <div className="social--wrapper">
@@ -7,7 +7,7 @@ const Social = () => {
       </div>
       <div className="bottom--wrapper">
         <h1>
-          <span>WORK LIFE </span>
+          <span>IMPROVE</span>
           SOCIAL
         </h1>
         <p>

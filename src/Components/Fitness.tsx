@@ -1,4 +1,4 @@
-import IMG from "../Images/Customer.png";
+import IMG from "../Images/Health.png";
 const Fitness = () => {
   return (
     <div className="Fitness--wrapper">

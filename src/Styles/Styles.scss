@@ -2,3 +2,32 @@
 @import './colors';
 @import './deafult';
 @import './main';
+
+.fitness {
+
+    --bg: hsla(286, 85%, 23%, 1);
+    --text: hsla(286, 16%, 99%, 1);
+    --body: hsla(0, 0%, 100%, 1);
+    --master: hsla(286, 16%, 99%, 1);
+    --texthigh: hsla(10, 100%, 58%, 1);
+    --Icon: hsla(280, 82%, 98%, 1);
+
+
+
+
+}
+
+.social {
+
+    --bg: hsla(32, 100%, 50%, 1);
+
+    --text: hsla(278, 88%, 20%, 1);
+    --body: hsla(0, 0%, 0%, 1);
+    --master: hsla(0, 0%, 0%, 1);
+    --texthigh: hsla(278, 88%, 20%, 1);
+    --Icon: hsla(0, 0%, 0%, 1);
+
+
+
+
+}

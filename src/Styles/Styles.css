@@ -2,7 +2,10 @@
 :root {
   --bg: hsla(280, 82%, 98%, 1);
   --text: hsla(278, 88%, 20%, 1);
+  --texthigh: hsla(278, 88%, 20%, 1);
   --body: hsla(278, 68%, 56%, 1);
+  --master: hsla(278, 14%, 4%, 1);
+  --Icon: hsla(280, 82%, 98%, 1);
 }
 
 html {
@@ -37,6 +40,7 @@ a {
 }
 
 body {
+  background-color: var(--bg);
   font-family: 'Inter', sans-serif;
   line-height: 1.75;
   position: relative;
@@ -70,28 +74,34 @@ body {
 }
 
 .balance--wrapper .image--wrapper,
-.fitness--wrapper .image--wrapper {
+.Fitness--wrapper .image--wrapper,
+.social--wrapper .image--wrapper {
   margin: 0 0 3em 0;
 }
 
 .balance--wrapper .bottom--wrapper h1,
-.fitness--wrapper .bottom--wrapper h1 {
-  color: var(--text);
+.Fitness--wrapper .bottom--wrapper h1,
+.social--wrapper .bottom--wrapper h1 {
   font-size: 2.25rem;
   font-weight: 700;
   max-width: 175px;
+  text-transform: uppercase;
   margin: 0 0 24px 0;
+  color: var(--texthigh);
 }
 
 .balance--wrapper .bottom--wrapper h1 span,
-.fitness--wrapper .bottom--wrapper h1 span {
+.Fitness--wrapper .bottom--wrapper h1 span,
+.social--wrapper .bottom--wrapper h1 span {
   font-weight: 400;
   font-size: 1.5rem;
   display: block;
+  color: var(--text);
 }
 
 .balance--wrapper .bottom--wrapper p,
-.fitness--wrapper .bottom--wrapper p {
+.Fitness--wrapper .bottom--wrapper p,
+.social--wrapper .bottom--wrapper p {
   font-size: 1rem;
   font-weight: 400;
   color: var(--body);
@@ -113,5 +123,31 @@ body {
 
 .mater--wrapper #master {
   font-weight: 500;
+}
+
+.mater--wrapper p {
+  color: var(--master);
+}
+
+#Vector {
+  stroke: var(--Icon);
+}
+
+.fitness {
+  --bg: hsla(286, 85%, 23%, 1);
+  --text: hsla(286, 16%, 99%, 1);
+  --body: hsla(0, 0%, 100%, 1);
+  --master: hsla(286, 16%, 99%, 1);
+  --texthigh: hsla(10, 100%, 58%, 1);
+  --Icon: hsla(280, 82%, 98%, 1);
+}
+
+.social {
+  --bg: hsla(32, 100%, 50%, 1);
+  --text: hsla(278, 88%, 20%, 1);
+  --body: hsla(0, 0%, 0%, 1);
+  --master: hsla(0, 0%, 0%, 1);
+  --texthigh: hsla(278, 88%, 20%, 1);
+  --Icon: hsla(0, 0%, 0%, 1);
 }
 /*# sourceMappingURL=Styles.css.map */
