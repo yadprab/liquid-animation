@@ -57,8 +57,8 @@ body {
     right: -10px;
     top: 0;
     bottom: 0;
-    cursor: move;
     z-index: 10000;
+    touch-action: auto;
 }
 
 .wrapper {
